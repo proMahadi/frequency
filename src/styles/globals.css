@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-container mx-auto;
+}
+.container2 {
+  @apply max-w-container2 mx-auto;
+}
+.navbg {
+  @apply bg-[linear-gradient(360deg,_#05132C_9.78%,_#246865_90.53%)];
+}
+.btnbg {
+  @apply bg-[linear-gradient(55deg,_#4FE0B6_15.78%,_#329EB7_80.53%)]  ;
+  /* ,_#1D70B7_3.69% */
+}
+.section-title{
+  @apply text-white whitespace-pre-line uppercase text-lg lg:text-[28px] md:w-fit leading-6 lg:leading-8 font-bold;
+}
+.common-paragraph{
+  @apply text-white xl:whitespace-pre-line text-sm lg:text-lg
+}
+.card-title{
+  @apply font-extrabold lg:text-[22px] text-white whitespace-pre-line;
+}
+.step-card{
+  @apply w-[262px] flex flex-col text-center;
+}
+.reason-card{
+  @apply sm:w-[360px] text-center;
+}
+/* .border-top {
+  @apply border-[linear-gradient(90deg,_#16395E_48.78%,_#07EAD3_50.53%)] border-t  ;
+} */
+/* .input-border {
+  @apply border-[linear-gradient(55deg,_#4FE0B6_15.78%,_#329EB7_80.53%)]  bg-transparent;
+} */
+body {
+  @apply bg-[#05132C];
+  font-family: "Poppins", sans-serif;
+}
+
